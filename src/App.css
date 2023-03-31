@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+
+}
+:root {
+  --dark:  #0c172d;
+  --orange :  #e49151
+}
+
+
+*{
+  /* background-color: #6227f7; */
+text-decoration: none; 
+
+}
+

@@ -1,0 +1,91 @@
+.experience{
+    background-color: black;
+    padding: 3em 0  ;
+    margin-top: .8em;
+}
+
+.experience__container {
+    display: grid;
+    grid-template-columns:48% 48%;
+    gap: 1rem;
+    background-color: black;
+    padding: 3em .2em;
+    border: 2em solid var(--orange);
+}
+.experience__container > div {
+    background: black;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1em solid  rgba(255, 166, 0, 0.498);
+
+    transition: transform .2s;
+}
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--orange);
+}
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.3rem;
+    column-gap: .4em;
+}
+  .experience__details  {
+    display: flex;
+    gap: 1.5rem;
+  }
+  h4{
+    color: aliceblue;
+  }
+  h4:hover{
+    color: var(--orange);
+    cursor: pointer;
+  }
+  .experience__details-icon {
+    margin-top: 6px;
+    color: var(--orange);
+  }
+  /*============= MEDIA QUERIES (MEDIUM DEVICES) ==============*/
+  @media screen and ( max-width: 773px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div {
+        width: 90%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content {
+        padding: 1rem;
+    }
+}
+
+   
+   /*============= MEDIA QUERIES (SMALL DEVICES) ==============*/
+   
+   @media screen and ( max-width: 600px) {
+        .experience__container{
+            gap: 1rem;
+        }
+        .experience__container > div {
+           
+            padding: 2rem 1rem;
+        }
+   }
+
+      @media screen and ( max-width: 550px) {
+       
+          .experience__container {
+           
+            gap: 1rem;
+        
+            padding: 3em .2em;
+            border: 1em solid var(--orange);
+        }
+          .experience__content {
+           
+            grid-template-columns: 1fr !important;
+          
+        }
+   }
