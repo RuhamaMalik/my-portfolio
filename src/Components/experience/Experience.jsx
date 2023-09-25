@@ -23,7 +23,12 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>JavaScript</h4>
             </article>
+
             <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Redux</h4>
+            </article>
+            {/* <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>Bootstrap</h4>
             </article>
@@ -34,19 +39,13 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>Chakra Ui</h4>
-            </article>
+            </article> */}
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>React JS</h4>
             </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill  className='experience__details-icon' />
-              <h4>React Native</h4>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill  className='experience__details-icon' />
-              <h4>TypeScript</h4>
-            </article>
+            
+            
           </div>
       </div>
       {/* End FRONTEND DEVELOPMENT */}
@@ -72,6 +71,37 @@ const Experience = () => {
             
           </div>
       </div>
+
+      {/* Libraries */}
+
+      <div className="experience__backend">
+      <h3>Other Skills</h3>
+      
+          <div className="experience__content">
+          <article className='experience__details'>
+              <BsPatchCheckFill  className='experience__details-icon' />
+              <h4>TypeScript</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Bootstrap</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill  className='experience__details-icon' />
+              <h4> Material UI</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill  className='experience__details-icon' />
+              <h4> Chakra UI</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Git and Githb</h4>
+            </article>
+            
+          </div>
+      </div>
+
     </div>
    </section>
   )

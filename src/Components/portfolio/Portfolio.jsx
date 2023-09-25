@@ -9,6 +9,11 @@ import IMG6 from '../../assets/images/portfolio6.png'
 import IMG7 from '../../assets/images/portfolio7.png'
 import IMG8 from '../../assets/images/portfolio8.png'
 import IMG9 from '../../assets/images/portfolio9.png'
+import IMG10 from '../../assets/images/portfolio10.png'
+import IMG11 from '../../assets/images/portfolio11.png'
+import IMG12 from '../../assets/images/portfolio12.png'
+import IMG13 from '../../assets/images/portfolio13.png'
+import IMG14 from '../../assets/images/portfolio14.png'
 
 
 
@@ -29,7 +34,7 @@ const data =[
     id : 3,
     image: IMG3,
     github : 'https://github.com/RuhamaMalik/Simple-Form',
-    demo : 'https://simple-form-css.netlify.app'
+    demo : 'https://authantication-form-homepage.netlify.app/'
   },
   {
     id : 4,
@@ -66,6 +71,36 @@ const data =[
     image: IMG9,
     github : 'https://github.com/RuhamaMalik/OLX_home-page_Replica',
     demo : 'https://olx-homepage-replica.firebaseapp.com/'
+  },
+  {
+    id : 10,
+    image: IMG10,
+    github : 'https://github.com/RuhamaMalik/addToCart',
+    demo : 'https://ecom-app-cart.netlify.app/'
+  },
+  {
+    id : 11,
+    image: IMG11,
+    github : 'https://github.com/RuhamaMalik/UserList',
+    demo : 'https://user-select-unselect-table.netlify.app/'
+  },
+  {
+    id : 12,
+    image: IMG12,
+    github : 'https://github.com/RuhamaMalik/_firebase/tree/master/firebase_realtime_db',
+    demo : 'https://crud-post.netlify.app/'
+  },
+  {
+    id : 13,
+    image: IMG13,
+    github : 'https://github.com/RuhamaMalik/web-3.0-And-Metaverse-course/tree/main/assignment2%20html/landingPage',
+    demo : 'https://landing-page-7152e.web.app/'
+  },
+  {
+    id : 14,
+    image: IMG14,
+    github : 'https://github.com/RuhamaMalik/social-app',
+    demo : 'https://social-app-s.netlify.app/'
   }
 ]
 const Portfolio = () => {
@@ -74,13 +109,13 @@ const Portfolio = () => {
       
       <h5 className= 'text-center' id="my-text">My Recent Work</h5>
       <h2 className="text-light text-center " id="my-text">Portfolio</h2>
-      <div className="container portfolio__container">
+      <div className=" portfolio__container">
        {
          data.map(({id , image,title , gihub,demo}) => {
           return(
             <article key={id} className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={image} alt={title} />
+            <img className='img' src={image} alt={title} />
           </div>
           <h3>{title}</h3>
           <div className="portfolio__item-cta">

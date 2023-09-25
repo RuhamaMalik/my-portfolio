@@ -1,11 +1,6 @@
 import React from 'react'
-import './about.css'
+import './About.css'
 import me from '../../assets/images/me.jpeg'
-import {FaAward} from 'react-icons/fa'
-import {MdImageSearch} from 'react-icons/md'
-import {BiBookReader} from 'react-icons/bi'
-import {GiNetworkBars} from 'react-icons/gi'
-
 const About = () => {
   return (
    <section id='about' className='about'>
