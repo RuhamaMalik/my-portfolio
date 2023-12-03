@@ -1,6 +1,7 @@
-import React from 'react'
-import './about.css'
-import me from '../../assets/images/me.jpeg'
+import React from 'react';
+import './about.css';
+import me from '../../assets/images/me.jpeg';
+
 const About = () => {
   return (
    <section id='about' className='about'>
