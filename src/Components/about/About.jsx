@@ -17,7 +17,10 @@ const About = () => {
 
       <div className="about__content align-center">
         <p>I look forward to bringing my strong creative, technical, and analytical skills to Full-Stack Development with developing and delivering user-centric applications and solutions.
-            Throughout my career, I have been recognized as a professional who is focused on finding solutions and is capable of designing and developing cutting-edge applications using cutting-edge technologies.</p>
+            Throughout my career, I have been recognized as a professional who is focused on finding solutions and is capable of designing and developing cutting-edge applications using cutting-edge technologies.
+            I have two years experience of teaching front-end technologies. More over  Completed two internships: one as a front-end developer and the other as a full-stack developer, gaining valuable hands-on experience in web development, including React.js , Next.js and backend technologies.
+           </p>
+            
 
            <a href="#contact" className='btn btn-outline-light button w-50'>Let's Talk</a>
       </div>

@@ -44,6 +44,10 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>React JS</h4>
             </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Next JS</h4>
+            </article>
             
             
           </div>
@@ -67,6 +71,14 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>Express JS</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>SQL</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Sequelizer</h4>
             </article>
             
           </div>
@@ -97,6 +109,10 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <h4>Git and Githb</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <h4>Tailwind Css</h4>
             </article>
             
           </div>
